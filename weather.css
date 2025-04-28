@@ -1,0 +1,72 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 700px;
+    background: black;
+    background-image: url(https://awesomewallpapers.files.wordpress.com/2016/05/wasitalladream-2880x1800-large.jpg);
+    background-size:cover;
+    font-family: 'Open Sans', sans-serif ;
+    font-size: 120%;
+    
+}
+.card{
+    background: rgba(0, 0, 0, 0.568);
+    color: white;
+    padding: 30px;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 450px;
+    margin: 10px;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar{
+    border-radius: 20px;
+    height: 35px;
+    background: #7c7c7c2b;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0.5em;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-10px);
+}
+button{
+    border-radius: 50%;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: #7c7c7c2b; cursor: pointer;
+}
+button:hover{
+    background-color: rgba(194, 194, 194, 0.534);
+}
+h1:temp{
+    margin: 0;
+}
+.description{
+    text-transform: capitalize;
+}
+.flex{
+    display: flex;
+}
+ .weather.loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+.weather.laoding:after{
+    visibility: visible;
+    content: "loading...";
+    color: color;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
